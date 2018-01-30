@@ -1,34 +1,31 @@
 ---
-title: '1. Setup Your Pi'
+title: '1. Set up your NXP Pico-Pi and Synaptics Dev Kit '
 
 
 layout: nil
 ---
-**Note:  you can skip this step if your Pi is already up and running.**
 
-Let's begin by setting up the Pi. The Raspberry Pi 3 board includes -
 
-- 4 USB ports
-- HDMI port for video output (you'll be using this to connect to your HDMI monitor)
-- 3.5mm audio jack for sound output (you'll be using to connect your earphones)
-- Micro SD card slot
-- Ethernet port
+Let's begin by setting up the NXP Pico-Pi-IMX7D and Synaptics AudioSmart 2-Mic Development Kit. 
+
+--- add some stuff here about how great the pico pi is (Resources etc) ---
 
 {:.steps}
-### Assembling Your Pi
+### Assembling Your Dev Kit
 
-1. Check that your micro SD card is inserted into the micro SD card slot on your Pi.
-2. Plug in the USB microphone and 3.5mm earbuds.
-4. Connect the keyboard and mouse to the USB ports.
-5. Connect your monitor using the HDMI port.
-6. Connect the Ethernet Cable.
+1. Plug in the USB, mic/speaker, and ethernet (if required) connections as shown in the above picture.  
+2. Next, connect +5V power to the 2Mic Synaptics kit.
+4. Last step should be powering up your NXP Pico-Pi board by installing the USB type C connector into the board.  You can just use your computer as a power source. 
+
 
 {:.steps}
 ### Booting Your Pi
 
-1. Plug in the power supply to the micro USB connector on the Pi.  You should see a loading screen go through some startup steps before booting to desktop - if you run into any errors, request a new SD micro card to boot the OS from.
-2. Open a web browser by clicking on the globe icon in the top left toolbar.
+1. Your Pico-Pi comes pre-loaded with a Yocto Linux image - as a user, you only need to run the setup scripts to build and launch the Alexa sample app.  On your laptop, open a serial console (Putty or TeraTerm) and select the right COM port for your Pico-Pi (whichever COM port appears in the drop-down when you plug in the USB connection)
+2. Once the terminal opens, you'll be presented with a login.  Type 'root' to continue.
+3. Set the date by typing './home/root/Alexa_SDK/Scripts/setUTCTime.sh' into the console.
+4. Type 'alsamixer' to pull up the controls for your sound card.  Use the arrow keys to set microphone to maxiumum.  Hit F6 to get to the headphone volume level and turn it up to 100.
 
 {:.verify}
 ### Checkpoint 1
-1. Make sure you're connected to the internet and are able to navigate to [https://developer.amazon.com](https://developer.amazon.com).
+1. Make sure you are able to TeraTerm into your PicoPi and access the volume controls.
