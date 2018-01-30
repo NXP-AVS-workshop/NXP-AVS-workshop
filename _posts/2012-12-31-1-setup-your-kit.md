@@ -32,9 +32,9 @@ Let's begin by setting up the NXP Pico-Pi-IMX7D and Synaptics AudioSmart 2-Mic D
 2. Once the terminal opens, you'll be presented with a login.  Type 'root' to continue.
 3. Set the date by typing './home/root/Alexa_SDK/Scripts/setUTCTime.sh' into the console.
 4. Type 'alsamixer' to pull up the controls for your sound card.  Use the arrow keys to set microphone to maxiumum.  Hit F6 to get to the headphone volume level and turn it up to 100.
-5.  Find the IP address of your device by typing **WHAT DO I TYPE HERE!?**
+
 
 {:.verify}
 ### Checkpoint 1
 1. Make sure you are able to TeraTerm into your PicoPi and access the volume controls.
-2. Find the IP address of your PicoPi.
+
