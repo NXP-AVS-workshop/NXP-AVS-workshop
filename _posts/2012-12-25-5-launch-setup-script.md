@@ -19,4 +19,4 @@ You'll be prompted to proceed through the Sensory Wake Word license agreement.  
 {:.verify}
 ### Checkpoint 5
 
-1. Make sure you've saved the **config.sh** file in your */home/pi/avs-sdk* folder with your **Device Type ID**, **Device Serial Number**, **Client ID** and **Client Secret**.
+1. ...
