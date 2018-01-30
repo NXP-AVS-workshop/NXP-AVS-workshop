@@ -1,34 +1,21 @@
 ---
-title: '5. Copy Your Credentials'
+title: '5. Install the Alexa Voice Service SDK'
 
 
 layout: nil
 ---
 
-1. On your Raspberry Pi, open the File Explorer by clicking on the folder icon on your toolbar at the top left.  It should come up in the */home/pi* folder.  Navigate to the *avs-sdk* folder.  Right-click on **config.sh** and select "Text Editor" to open your configuration file.  
+1. On your laptop's TeraTerm console, run the **SetupAVS.sh** script by typing './setupAVS.sh' from the Alexa_SDK directory.
 
-![](assets/config_file.png)
+![](assets/____________.png)
 
-It should contain the following fields:
+You'll be prompted to proceed through the Sensory Wake Word license agreement.  Hit enter to scroll through the EULA and type "yes" to accept the agreement.
 
-`CLIENT_SECRET=""
-DEVICE_SERIAL_NUMBER=""
-CLIENT_ID=""
-PRODUCT_ID=""
-`
-2. In your web browser, Navigate back to the AVS dashboard:  [https://developer.amazon.com/avs/home.html#/avs/home](https://developer.amazon.com/avs/home.html#/avs/home).
-3. Click **Manage**. From **Details and management** copy your **Product ID** (no spaces) into the `PRODUCT_ID` field of your **config.sh** file.
-4. Select **Security Profile** from the left tab and copy your **Client ID** and **Client Secret**.  
-5. Place the **ClientID** and **ClientSecret** into the `CLIENT_ID` and `CLIENT_SECRET` fields.  
-6. The **device serial number** is created by device makers and isn't used by AVS - for this workshop, it can be any alpha-numeric value (here it's 123456):
+2. After accepting, you should see the Sample App build.  This can take some time - for purposes of this workshop, portions have been prebuilt to get you up and running faster.
 
-Your completed config.sh fields will look something like this:
+3. You should be prompted for your AVS Credentials next - this includes your Product ID (no spaces!), Client ID, and Client Secret.  Copy and paste these numbers from your Developer Portal Product Profile that you created in the previous step.  Ensure you don't accidentally copy an extra space, or miss a character!
 
-`CLIENT_SECRET="12345678901234567890128901234567890123456789012345678901234"
-DEVICE_SERIAL_NUMBER="123456"
-CLIENT_ID="amzn1.application-oa2-client.12345678901234567890123456789012"
-PRODUCT_ID="TEST_SPEAKER"
-`
+
 {:.verify}
 ### Checkpoint 5
 
