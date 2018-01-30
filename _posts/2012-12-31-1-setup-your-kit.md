@@ -11,6 +11,13 @@ Let's begin by setting up the NXP Pico-Pi-IMX7D and Synaptics AudioSmart 2-Mic D
 --- add some stuff here about how great the pico pi is (Resources etc) ---
 
 {:.steps}
+### Get your laptop ready for the workshop
+
+1. You'll need some sort of serial console to access the PicoPi.  We recommend TeraTerm, available here.  
+2. VNC Viewer is also needed to open web browsers on the device remotely.  You can get VNC Viewer here (https://www.realvnc.com/en/connect/download/viewer/).
+
+
+{:.steps}
 ### Assembling Your Dev Kit
 
 1. Plug in the USB, mic/speaker, and ethernet (if required) connections as shown in the above picture.  
