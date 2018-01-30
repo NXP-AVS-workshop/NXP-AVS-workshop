@@ -11,7 +11,7 @@ layout: nil
 cd Alexa_SDK
 ./setupAVS.sh'
 
-![SetupAVS](assets/SetupAVS.png)
+![SetupAVS](assets/SetupAVS.PNG)
 
 You'll be prompted to proceed through the Sensory Wake Word license agreement.  Hit enter to scroll through the EULA and type "yes" to accept the agreement.
 
@@ -19,7 +19,7 @@ You'll be prompted to proceed through the Sensory Wake Word license agreement.  
 
 3. Once the Sample App finishes, you should be prompted for your AVS Credentials next - this includes your Product ID (no spaces!), Client ID, and Client Secret.  Copy and paste these numbers from your Developer Portal Product Profile that you created in the previous step.  Ensure you don't accidentally copy an extra space, or miss a character!
 
-![AppBuilt](assets/AppBuilt.png)
+![AppBuilt](assets/AppBuilt.PNG)
 
 {:.verify}
 ### Checkpoint 5
