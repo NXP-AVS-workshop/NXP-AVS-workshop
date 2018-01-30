@@ -13,8 +13,8 @@ Let's begin by setting up the NXP Pico-Pi-IMX7D and Synaptics AudioSmart 2-Mic D
 {:.steps}
 ### Get your laptop ready for the workshop
 
-1. You'll need some sort of serial console to access the PicoPi.  We recommend Tera Term, if you don't already have it you can access a direct download link here https://osdn.net/dl/ttssh2/teraterm-4.97.exe.  
-2. VNC Viewer is also needed to open web browsers on the device remotely.  You can get VNC Viewer here (https://www.realvnc.com/en/connect/download/viewer/).
+1. You'll need some sort of serial console to access the PicoPi.  We recommend Tera Term, if you don't already have it you can access a direct download link [here](https://osdn.net/dl/ttssh2/teraterm-4.97.exe).  
+2. VNC Viewer is also needed to open web browsers on the device remotely.  You can get VNC Viewer [here](https://www.realvnc.com/en/connect/download/viewer/).
 
 
 {:.steps}
