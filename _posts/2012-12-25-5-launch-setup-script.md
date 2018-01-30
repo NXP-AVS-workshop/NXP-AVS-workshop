@@ -5,7 +5,10 @@ title: '5. Install the Alexa Voice Service SDK'
 layout: nil
 ---
 
-1. On your laptop's TeraTerm console, run the **SetupAVS.sh** script by typing './setupAVS.sh' from the Alexa_SDK directory.
+1. On your laptop's TeraTerm console, navigate to the Alexa_SDK directory to run the **SetupAVS.sh** script:
+
+'cd Alexa_SDK
+./setupAVS.sh'
 
 ![](assets/____________.png)
 
