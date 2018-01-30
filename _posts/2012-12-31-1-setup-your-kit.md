@@ -28,7 +28,7 @@ Let's begin by setting up the NXP Pico-Pi-IMX7D and Synaptics AudioSmart 2-Mic D
 
 Your full setup should look something like this:
 
-![FullSetup](../assets/FullSetup.png)
+![FullSetup](../assets/FullSetup.jpg)
 
 
 {:.steps}
