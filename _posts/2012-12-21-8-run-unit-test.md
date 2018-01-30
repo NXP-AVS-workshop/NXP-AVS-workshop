@@ -10,7 +10,7 @@ This assumes the build is in the directory created by the script (avs-sdk).
 
 #### Unit Tests
 
-Go to the terminal window, and run the following steps to execute the series of Unit tests on your prototype.
+Go to the terminal window, and run the following steps to execute the series of Unit tests on your prototype.  **FIX THESE FOLDER PATHS**
 
 `cd /home/pi/avs-sdk/build
 make all test
