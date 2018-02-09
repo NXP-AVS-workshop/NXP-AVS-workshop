@@ -38,9 +38,10 @@ Your full setup should look something like this:
 ![ConsoleConfig](/assets/ConsoleConfig.PNG)
 2. Once the terminal opens, you'll be presented with a login.  Type 'root' to continue.
 ![Root](/assets/Root.PNG)
-3. Set the date by typing './home/root/Alexa_SDK/Scripts/setUTCTime.sh' into the console.
+3. Set the date by entering the following command into the console:
+'sudo bash /home/root/Alexa_SDK/Scripts/setUTCTime.sh' 
 4. Type 'alsamixer' to pull up the controls for your sound card.  Use the up arrow keys to set PCM output level of the USB Mixer up to 100 as shown below:
-![AlsaMixer](/assets/AlsaMixer.PNG)
+![AlsaMixer](/assets/AlsaMixerv2.PNG)
 
 
 {:.verify}
