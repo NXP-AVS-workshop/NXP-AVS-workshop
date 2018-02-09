@@ -3,4 +3,4 @@ exclude: ['README.markdown']
 permalink: ':title'
 highlighter: 'pygments'
 safe: false
-title: 'AVS Tutorials - NXP Setup'
+title: 'AVS Tutorials - NXP feat. Synaptics'
