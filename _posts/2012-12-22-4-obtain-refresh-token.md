@@ -12,7 +12,7 @@ After your credentials were entered from the previous step, in your Terminal you
 
 In step 1, you should have downloaded VNC viewer - open a VNC viewer window on your host PC.  At the top, enter your unique IP address as it was displayed in your terminal window. 
 
-![VNC_viewer](../assets/VNC_viewer.PNG)
+![VNC_viewer](../assets/VNC_Viewer.PNG)
 
 Once you input the correct IP address, you should have the option to pull up a firefox browser.  Open up the browser and input 127.0.0.1:3000 as the URL (localhost:3000).  
 
