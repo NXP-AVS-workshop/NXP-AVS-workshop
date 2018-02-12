@@ -7,9 +7,9 @@ layout: nil
 
 1. On your laptop's TeraTerm console, navigate to the Alexa_SDK directory to run the **SetupAVS.sh** script:
 
-'
+`
 cd Alexa_SDK
-./setupAVS.sh'
+./setupAVS.sh`
 
 ![SetupAVS](assets/SetupAVS.PNG)
 
