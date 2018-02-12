@@ -36,15 +36,13 @@ Your Pico-Pi comes pre-loaded with a Yocto Linux image - you only need to run th
 
 ![ConsoleConfig](/assets/ConsoleConfig.PNG)
 
-Once the terminal opens, you'll be presented with a login.  Type `root` to continue.  If you don't see a prompt come up, try hitting "return" or power cycling the Pico-Pi by unplugging the USB-C cable.
+Once the terminal opens, you'll be presented with a login.  Type "root" to continue.  If you don't see a prompt come up, try hitting "return" or power cycling the Pico-Pi by unplugging the USB-C cable.
 
 ![Root](/assets/Root.PNG)
 
-Set the date by entering the following command into the console:
+Set the date by entering the following command into the console:  `sudo bash /home/root/Alexa_SDK/Scripts/setUTCTime.sh` 
 
-`sudo bash /home/root/Alexa_SDK/Scripts/setUTCTime.sh` 
-
-Type `alsamixer` into the terminal and hit return to pull up the controls for your sound card.  Make sure the I2S sound card is selected (Not audio-sgt15000). Use the up arrow keys to set PCM output level of the USB Mixer up to 100 and hit esc to exit.
+Type "alsamixer" into the terminal and hit return to pull up the controls for your sound card.  Make sure the I2S sound card is selected (Not audio-sgt15000). Use the up arrow keys to set PCM output level of the USB Mixer up to 100 and hit esc to exit.
 ![AlsaMixer](/assets/mixerv3.PNG)
 
 
