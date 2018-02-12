@@ -1,5 +1,5 @@
 ---
-title: '5. Install the Alexa Voice Service SDK'
+title: '3. Install the Alexa Voice Service SDK'
 
 
 layout: nil
