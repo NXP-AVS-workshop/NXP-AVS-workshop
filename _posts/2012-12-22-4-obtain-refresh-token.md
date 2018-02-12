@@ -1,5 +1,5 @@
 ---
-title: '7. Obtain a refresh token'
+title: '4. Obtain a refresh token'
 
 
 layout: nil
