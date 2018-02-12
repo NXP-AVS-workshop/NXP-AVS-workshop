@@ -38,20 +38,20 @@ Your full setup should look something like this:
 
 ![ConsoleConfig](/assets/ConsoleConfig.PNG)
 
-2. Once the terminal opens, you'll be presented with a login.  Type 'root' to continue.  If you don't see a prompt come up, try hitting "return" or power cycling the Pico-Pi by unplugging the USB-C cable.
+2. Once the terminal opens, you'll be presented with a login.  Type `root` to continue.  If you don't see a prompt come up, try hitting "return" or power cycling the Pico-Pi by unplugging the USB-C cable.
 
 ![Root](/assets/Root.PNG)
 
 3. Set the date by entering the following command into the console:
 
-'
-sudo bash /home/root/Alexa_SDK/Scripts/setUTCTime.sh' 
+`sudo bash /home/root/Alexa_SDK/Scripts/setUTCTime.sh` 
 
-4. Type 'alsamixer' to pull up the controls for your sound card.  Make sure the I2S sound card is selected (Not audio-sgt15000). Use the up arrow keys to set PCM output level of the USB Mixer up to 100 and hit esc to exit.
+4. Type `alsamixer` into the terminal and hit return to pull up the controls for your sound card.  Make sure the I2S sound card is selected (Not audio-sgt15000). Use the up arrow keys to set PCM output level of the USB Mixer up to 100 and hit esc to exit.
 ![AlsaMixer](/assets/mixerv3.PNG)
 
 
 {:.verify}
 ### Checkpoint 1
 1. Make sure you are able to TeraTerm into your PicoPi and access the I2S volume controls.
+2. Crank it up to 100!
 
