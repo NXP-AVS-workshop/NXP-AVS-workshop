@@ -11,8 +11,8 @@ This assumes the build on your device is located in the directory /avs-sdk-clien
 Go to the terminal window, and run the following steps to execute the series of Unit tests on your prototype.  
 
 `cd /Alexa_SDK/avs-sdk-client
-make all test
-`
+make all test`
+
 ![test_start](/assets/teststart.png)
 
 For this workshop, tests have been pre-built to save time.  If you have your earbuds or speakers in, you'll hear Alexa run through a series of audio tests as well as functional tests.
