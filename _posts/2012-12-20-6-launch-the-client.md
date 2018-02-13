@@ -14,7 +14,7 @@ The last field indicates that it is starting with the highest debug level, **DEB
 
 You should see the following screen indicating that the Sample App is ready for interaction:
 
-![app launched](../assets/app_launched.PNG)  **UPDATE**
+![app launched](../assets/app_launched.PNG)  
 
 {:.verify}
 ### Checkpoint 9
