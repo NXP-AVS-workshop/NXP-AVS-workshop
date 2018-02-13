@@ -12,8 +12,11 @@ Let's begin by setting up the NXP Pico-Pi-IMX7D and Synaptics AudioSmart 2-Mic D
 
 ### Get Required Software
 
-You'll need a serial console (Putty, Tera Term etc) to access the PicoPi.  We recommend Tera Term, you can access a direct download link [here](https://osdn.net/dl/ttssh2/teraterm-4.97.exe).  
-VNC Viewer is also needed to open web browsers on the device remotely.  You can get VNC Viewer [here](https://www.realvnc.com/en/connect/download/viewer/).
+For this tutorial, you'll use your personal computer (PC/Mac/Linux) to configure and start the Alexa Voice Service client.
+
+You'll need a serial console (Putty, Tera Term etc) to access the PicoPi.  We recommend **Tera Term**, you can access a direct download link [here](https://osdn.net/dl/ttssh2/teraterm-4.97.exe).  
+
+**VNC Viewer** is also needed to open web browsers on the device remotely.  You can get VNC Viewer [here](https://www.realvnc.com/en/connect/download/viewer/).
 
 
 ### Assembling Your Dev Kit
