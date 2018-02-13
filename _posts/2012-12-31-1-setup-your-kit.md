@@ -5,10 +5,9 @@ title: '1. Set up your Hardware '
 layout: nil
 ---
 
+The Synaptics NXP 2Mic AVS Dev Kit is the complete solution to expedite development of Alexa Home Products.  The kit consists of a **Synaptics AudioSmart™ 2-Mic Development Kit** for Amazon Alexa Voice Service (AVS) and a **PICO-PI-IMX7** development board with the **NXP i.MX 7D** processor.  The kit outputs a fully functioning Amazon AVS prototype that uses the Synaptics Kit as an audio front end, and the PICO-PI-IMX7 i.MX 7D development board as the processor handling wake word recognition and interface to Amazon’s AVS service. 
 
 Let's begin by setting up the NXP Pico-Pi-IMX7D and Synaptics AudioSmart 2-Mic Development Kit. 
-
---- add some stuff here about how great the pico pi is (Resources etc) ---
 
 
 ### Get Required Software
@@ -32,7 +31,7 @@ Your full setup should look something like this:
 
 ### Booting Your Pico-Pi with Serial Console
 
-Your Pico-Pi comes pre-loaded with a Yocto Linux image - you only need to run the setup scripts to build and launch the Alexa sample app.  On your laptop, open a serial console (Putty or Tera Term) and select the right COM port for your Pico-Pi (whichever new COM port appears in the drop-down when you plug in the USB connection from the Pico-Pi).  Configure your serial console with the settings as shown:
+Your Pico-Pi comes pre-loaded with a Yocto Linux image - you only need to run the setup scripts to build and launch the Alexa sample app.  On your laptop, open a serial console (Putty or Tera Term) and select the right COM port for your Pico-Pi (whichever new COM port appears in the drop-down when you plug in the USB connection from the Pico-Pi).  Configure your serial console with the settings as shown:  (change baud rate to 115200)
 
 ![ConsoleConfig](/assets/ConsoleConfig.PNG)
 
