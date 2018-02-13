@@ -14,14 +14,14 @@ The last field indicates that it is starting with the highest debug level, **DEB
 
 You should see the following screen indicating that the Sample App is ready for interaction:
 
-![app launched](../assets/app_launched.png)  **UPDATE**
+![app launched](../assets/app_launched.PNG)  **UPDATE**
 
 {:.verify}
 ### Checkpoint 9
 
 Say "Alexa" into the microphone array on your Synaptics 2-Mic dev kit to trigger the **Wake Word Engine**.   You should see the console status change to **Listening**, indicating the wake word was recognized.  Then say "tell me a joke." If Alexa responds with **Thinking...**, then **Speaking**, congratulations!  You have a working prototype.  
 
-![app running](../assets/app_running.png)
+![app running](../assets/app_running.PNG)
 
 As you interact with your prototype, you should see a series of status changes annotated by your level of DEBUG set (DEBUG9 in this picture).  If you cannot hear Alexa's response, ensure your speaker/earbuds are turned on and plugged in to your Synaptics kit 3.5mm audio jack.  
 
