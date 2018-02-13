@@ -10,7 +10,7 @@ layout: nil
 
 Unless you already have a developer account, follow the instructions [here](https://fake.com) to create your account. 
 
-Once you're logged in, follow the instructions on our tech docs page [here](https://fake.com) to create your Product.  Be sure to name your product **NXP-Prototype** for identification purposes.
+Once you're logged in, follow the instructions on our tech docs page [here](https://fake.com) to create your Product.  Be sure to use **NXP-Prototype** in your Product ID field for identification purposes.
 
 
 
