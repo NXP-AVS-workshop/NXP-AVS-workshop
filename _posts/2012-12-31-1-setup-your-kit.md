@@ -7,7 +7,7 @@ layout: nil
 
 ### Introduction to your Workshop Hardware
 
-The Synaptics NXP 2Mic AVS Dev Kit is the complete solution to expedite development of Alexa Home Products.  The kit consists of a **Synaptics AudioSmart™ 2-Mic Development Kit** for Amazon Alexa Voice Service (AVS) and a **PICO-PI-IMX7** development board with the **NXP i.MX 7D** processor.  The kit outputs a fully functioning Amazon AVS prototype that uses the Synaptics Kit as an audio front end, and the PICO-PI-IMX7 i.MX 7D development board as the processor handling wake word recognition and interface to Amazon’s AVS service. 
+The **Synaptics NXP 2Mic AVS Dev Kit** is the complete solution to expedite development of Alexa Home Products.  The kit consists of a **Synaptics AudioSmart™ 2-Mic Development Kit** for Amazon Alexa Voice Service (AVS) and a **PICO-PI-IMX7** development board with the **NXP i.MX 7D** processor.  The kit outputs a fully functioning Amazon AVS prototype that uses the Synaptics Kit as an audio front end, and the PICO-PI-IMX7 i.MX 7D development board as the processor handling wake word recognition and interface to Amazon’s AVS service. 
 
 Let's begin by setting up the NXP Pico-Pi-IMX7D and Synaptics AudioSmart 2-Mic Development Kit. 
 
@@ -67,7 +67,7 @@ Now, plug in the USB-C connector to connect your host PC to the Pico-Pi board.  
 
 ![Powershell](/assets/Powershell.PNG)
 
-In powershell, type the following command and hit enter.  The drive should show up on your PC!  
+In your terminal, type the following command and hit enter.  The drive should show up on your PC!  
 
 `sb_loader.exe -f ../../pico-imx7d_bootbomb_20170112.imx`
 
