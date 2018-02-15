@@ -67,15 +67,25 @@ Now, plug in the USB-C connector to connect your host PC to the Pico-Pi board.  
 
 ![Powershell](/assets/Powershell.PNG)
 
-In your terminal, type the following command and hit enter.  The drive should show up on your PC!  
+In your terminal, type the following command and hit enter.  
 
 `sb_loader.exe -f ../../pico-imx7d_bootbomb_20170112.imx`
 
 ![Powershell2](/assets/Powershell2.PNG)
 
+You'll get a confirmation that it "Executed plugin successfully" and a new drive should appear on your computer.  Now, you can open Win32DiskImager and write the image to your drive that just appeared.
+
+![Win32](/assets/Win32.PNG)
+
+After writing the image, disconnect power by removing the USB-C wire and set the jumper J2 on your Pico-Pi back to normal running position as shown below:
+
+![JumperNormal](/assets/JumperNormal.PNG)
+
+
 {:.verify}
 ### Checkpoint 1
 1. Make sure you are able to TeraTerm into your PicoPi and access the I2S volume controls.
 2. Crank it up to 100!
+3. Check that you have the latest image by confirming Alexa-SDK folder is on your /root path.
 
 
