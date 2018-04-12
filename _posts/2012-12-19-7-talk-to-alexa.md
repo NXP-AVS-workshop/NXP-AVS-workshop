@@ -31,3 +31,7 @@ Multi-turn interactions can feel like a more natural method of communication, si
 * Say "Alexa, Wikipedia" - you'll have the option of looking up any subject without having to speak the wake word before the subject.
 * Say "Alexa, let's chat" to initiate a conversation with a chat bot!
 * Say "Alexa, play Yes Sire" to play a medieval-themed game using your voice.
+
+### Alexa is Multi-lingual
+
+Today, Alexa can speak Japanese, German, and many global dialects of English - to try some of these settings, type "c" and hit "return" in the Sample App, then type "1" to see options for languages.  When you ship your Alexa-enabled product and your customer changes languages, your device will need to send a `SettingsUpdated` event to the cloud - the SDK makes that easy to do!  Learn more by clicking [here](https://developer.amazon.com/docs/alexa-voice-service/settings.html#settingsupdated).
