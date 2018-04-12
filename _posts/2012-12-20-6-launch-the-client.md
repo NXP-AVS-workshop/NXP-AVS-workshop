@@ -7,10 +7,9 @@ layout: nil
 
 The sample application is in the folder */Alexa_SDK/avs-sdk-client/SampleApp/src/*. In order to start it, input the following command into your console window:
 
-`cd ~/Alexa_SDK/avs-sdk-client/SampleApp/src/
-TZ=UTC ./SampleApp ../../Integration/AlexaClientSDKConfig.json ../../Integration/inputs/SensoryModels/ DEBUG9`
+`sudo alexac.sh`
 
-The last field indicates that it is starting with the highest debug level, **DEBUG9**.  This will display the max amount of status messages in the console as you communicate with Alexa.  If you want to reduce output, simply change that to a lower number or remove it altogether. For starters, try it at the highest level so you can see what is going on behind the scenes.
+
 
 You should see the following screen indicating that the Sample App is ready for interaction:
 
