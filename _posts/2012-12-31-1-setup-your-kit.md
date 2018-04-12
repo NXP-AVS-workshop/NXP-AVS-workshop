@@ -51,9 +51,17 @@ Set the date by entering the following command into the console:  (if this doesn
 Type "alsamixer" into the terminal and hit return to pull up the controls for your sound card.  Make sure the I2S sound card is selected (Not audio-sgt15000). Use the up arrow keys to set PCM output level of the USB Mixer up to 100 and hit esc to exit.
 ![AlsaMixer](/assets/mixerv3.PNG)
 
+Plug in ethernet or activate wi-fi by clicking in an antenna onto the micro-SMB connector on your NXP module and typing
+
+`wifi_setup.sh <SSID> <PW>`
+
+You can leave the password field blank if the connection is open.
+
+Test your connection by typing `ping 4.2.2.2` and see if you're online!
+
 ### Load the AVS Tutorial Image onto your Pico-Pi - For Windows PC
 
-If you're Your Pico-Pi should have the workshop's required image already loaded onto it.  If you don't see the directory under /root called Alexa_SDK, then you'll need to update it.  First, disconnect the power and all wires from your Pico-Pi and change the jumper J2 into "Serial Mode" by moving the jumper into the position shown below:
+**Your Pico-Pi should have the workshop's required image already loaded onto it.**  If you don't see the directory under /root called Alexa_SDK, then you'll need to update it.  First, disconnect the power and all wires from your Pico-Pi and change the jumper J2 into "Serial Mode" by moving the jumper into the position shown below:
 
 ![JumperSerial](/assets/JumperSerial.PNG)
 
