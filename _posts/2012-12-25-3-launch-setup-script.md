@@ -27,4 +27,4 @@ You'll be prompted for your choice of locale, then you should be ready to build.
 ### Checkpoint 5
 
 1. Sample app shows 100% Built success message
-2. ProductID is entered as NXP-Prototype, and Client ID/Client Secret are entered and confirmed  
+2. ProductID is entered as TestSpeaker (or whatever ProductID you used), and Client ID/Client Secret are entered and confirmed  
