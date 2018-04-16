@@ -1,5 +1,5 @@
 ---
-title: '8. Pick your device location and other settings'
+title: '7. Pick your device location and other settings'
 
 
 layout: nil
