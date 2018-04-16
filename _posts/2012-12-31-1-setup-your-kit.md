@@ -26,8 +26,8 @@ You'll need to use a serial console (Putty, Tera Term etc) to access the PicoPi.
 
 ![BlockDiagram](/assets/SetupBlock.PNG)
 
-Plug in the USB connections, mic/speaker, and ethernet (if not using wifi) connections as shown in the above picture.  Next, connect +5V power to the 2Mic Synaptics kit.
-Last step should be powering up your NXP Pico-Pi board by installing the USB type C connector into the board.  You can just use your computer as a power source. 
+Plug in the USB connections, mic/speaker, and ethernet (if not using wifi) connections as shown in the above picture.  Next, connect +5V power to the 2Mic Synaptics kit.  Switch on your Synaptics kit by toggling the slide switch SW3, next to where you plugged in +5V power.
+Last step should be powering up your NXP Pico-Pi board by installing the USB type C connector into the board.  You can just use your computer as a power source.  
 
 Your full setup should look something like this:
 
