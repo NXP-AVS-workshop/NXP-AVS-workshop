@@ -51,6 +51,8 @@ Set the date by entering the following command into the console:  (if this doesn
 Type "alsamixer" into the terminal and hit return to pull up the controls for your sound card.  Make sure the I2S sound card is selected (Not audio-sgt15000). Use the up arrow keys to set PCM output level of the USB Mixer up to 100 and hit esc to exit.
 ![AlsaMixer](/assets/mixerv3.PNG)
 
+If you don't see the I2S sound card available, make sure your Synaptics kit is switched on (LEDs are lit on the board) and reset your pico-pi by pushing the button next to the USB-C connector (or pulling the connector and re-plugging).
+
 Plug in ethernet or activate wi-fi by clicking in an antenna onto the micro-SMB connector on your NXP module and typing
 
 `wifi_setup.sh "<SSID>" "<PW>"`
