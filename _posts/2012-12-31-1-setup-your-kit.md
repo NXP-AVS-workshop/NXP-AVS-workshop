@@ -53,7 +53,7 @@ Type "alsamixer" into the terminal and hit return to pull up the controls for yo
 
 Plug in ethernet or activate wi-fi by clicking in an antenna onto the micro-SMB connector on your NXP module and typing
 
-`wifi_setup.sh <SSID> <PW>`
+`wifi_setup.sh "<SSID>" "<PW>"`
 
 You can leave the password field blank if the connection is open.
 
@@ -61,31 +61,9 @@ Test your connection by typing `ping 4.2.2.2` and see if you're online!
 
 ### Load the AVS Tutorial Image onto your Pico-Pi - For Windows PC
 
-**Your Pico-Pi should have the workshop's required image already loaded onto it.**  If you don't see the directory under /root called Alexa_SDK, then you'll need to update it.  First, disconnect the power and all wires from your Pico-Pi and change the jumper J2 into "Serial Mode" by moving the jumper into the position shown below:
+**Your Pico-Pi should have the workshop's required image already loaded onto it.**  
 
-![JumperSerial](/assets/JumperSerial.PNG)
-
-Download the latest image for this tutorial from the location [here](https://fakeURL.com)
-
-You'll need a copy of the **sb_loader** utility with a bootbomb built for your NXP Pico-imx7d.  You can get the package [here](ftp://ftp.technexion.net/development_resources/development_tools/installer/pico-imx7-imx6ul-imx6ull_otg-installer_20170112.zip)
-
-You will also need a disk imager utility, you can use **Win32DiskImager** - direct download link [here](https://sourceforge.net/projects/win32diskimager/files/latest/download?source=typ_redirect)
-
-Now, plug in the USB-C connector to connect your host PC to the Pico-Pi board.  To access the drive, navigate to the folder where your **sb_loader** utility was placed, and right-click to open a terminal window there (you can use PowerShell or similar).
-
-![Powershell](/assets/Powershell.PNG)
-
-In your terminal, type the following command and hit enter.  
-
-`sb_loader.exe -f ../../pico-imx7d_bootbomb_20170112.imx`
-
-![Powershell2](/assets/Powershell2.PNG)
-
-You'll get a confirmation that it "Executed plugin successfully" and a new drive should appear on your computer.  Now, you can open Win32DiskImager and write the image to your drive that just appeared.
-
-![Win32](/assets/Win32.PNG)
-
-After writing the image, disconnect power by removing the USB-C wire and set the jumper J2 on your Pico-Pi back to normal running position as shown below:
+Make sure the jumper J2 on your Pico-Pi is set to normal running position as shown below:
 
 ![JumperNormal](/assets/JumperNormal.PNG)
 
