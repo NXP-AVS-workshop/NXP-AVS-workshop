@@ -5,9 +5,14 @@ layout: nil
 ---
 
 
-The sample application is in the folder */Alexa_SDK/avs-sdk-client/SampleApp/src/*. In order to start it, input the following command into your console window:
+The sample application is in the folder */Alexa_SDK/avs-sdk-client/SampleApp/src/*. It should already be running from the previous step, but in case it stops, you can always restart it by pasting the following command into your console window:
 
-`sudo alexac.sh`
+```
+cd ~/Alexa_SDK/avs-sdk-client/SampleApp/src/
+
+   TZ=UTC ./SampleApp ../../Integration/AlexaClientSDKConfig.json \
+   ../../Integration/inputs/SensoryModels/ DEBUG9
+```
 
 
 
