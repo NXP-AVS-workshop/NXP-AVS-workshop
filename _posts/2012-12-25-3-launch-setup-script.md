@@ -16,11 +16,11 @@ You'll be prompted for your AVS Credentials next - this includes your Product ID
 
 **Important note:**  you need to pick the Client ID you created in the Security Profile tab - don't use the one at the top of the product page!
 
-![AppBuilt](assets/ClientIDfail.PNG)
+![WrongClientID](assets/ClientIDfail.png)
 
 You need to pick the ClientID you created for Code-Based Linking, in the Other Devices and Platforms section.
 
-![AppBuilt](assets/NXPCBL.PNG)
+![CBL_ID](assets/NXPCBL.png)
 
 
 You'll be prompted for your choice of locale, then you should be ready to build.
