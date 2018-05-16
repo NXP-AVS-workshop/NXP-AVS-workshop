@@ -9,6 +9,6 @@ Your Pico-Pi device has the SDK installed and your credentials loaded, but your 
 
 Launch the client by typing `sudo bash alexa.c` in the terminal window.  You should see a string of messages start to scroll down the terminal screen, followed by a message indicating that your client is checking for authorization.
 
-
+![CBL](../assets/CBLauth.png)
 
 Scroll up until you see the authorization code as shown in this picture.  On any device, go to amazon.com/us/code and enter your code as shown on your specific device.  Your device should show a success message, and you're ready to go!
